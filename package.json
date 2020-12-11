@@ -1,0 +1,15 @@
+{
+  "name": "mondrian-color-mapping",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "A simple example of Outfit Make's RGB to CMYK color mapping functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Lee",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT"
+}

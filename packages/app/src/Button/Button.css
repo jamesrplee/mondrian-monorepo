@@ -1,0 +1,76 @@
+button {
+  background-color: transparent;
+  border: initial;
+}
+
+.Button button {
+  background-color: white;
+  border: 0.4rem solid black;
+  color: black;
+  font-family: 'Dystopian';
+  font-weight: 900;
+  font-size: 2rem;
+  box-shadow: 1rem 1rem black;
+  cursor: pointer;
+  padding: 1.1rem 2rem 1.3rem 2rem;
+  text-align: center;
+  line-height: 1;
+  transition: all ease 0.25s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Button button:hover {
+  background-color: #F2F5F1;
+  color: rgb(19, 86, 162);
+  border-color: rgb(19, 86, 162);
+  box-shadow: 0.5rem 0.5rem rgb(19, 86, 162);
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.Button button:active {
+  color: rgb(212, 9, 32);
+  border-color: rgb(212, 9, 32);
+  box-shadow: 0rem 0rem rgb(212, 9, 32);
+  margin: 1rem 0 0 1rem;
+}
+
+.Button button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  color: rgb(19, 86, 162);
+  border-color: rgb(19, 86, 162);
+  box-shadow: 0.5rem 0.5rem rgb(19, 86, 162);
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0;
+  margin-left: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(19, 86, 162, 0.3);
+  border-top-color: rgb(19, 86, 162);
+  animation: spinner .6s linear infinite;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+}
