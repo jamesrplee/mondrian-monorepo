@@ -16,7 +16,7 @@ export default function Button({
       setIsGenerating(true);
 
       const url =
-        "https://api.stg.make.cm/make/t/4b99e8f1-e0d3-4d20-82bb-e925715ef30f/sync";
+        "https://api.stg.make.cm/make/t/e24e523b-25ce-4d52-ad1a-aaf7ed39a766/sync";
 
       const headers = {
         'Content-Type': 'application/json',
