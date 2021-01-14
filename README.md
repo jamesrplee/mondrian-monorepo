@@ -1,7 +1,7 @@
 # Mondrian Color Mapping
 
 <div style="width: 100%; display: block;">
-<img src="https://outfit-v2-exports-production.s3.ap-southeast-2.amazonaws.com/media_library_items/314f027c7eca051b1dfb147c73d1f079/Jan-15-2021%2006-53-31.gif" style="max-width: 500px; display: block; margin: auto; border-radius: 6px;">
+<img src="https://outfit-v2-exports-production.s3.ap-southeast-2.amazonaws.com/media_library_items/314f027c7eca051b1dfb147c73d1f079/Jan-15-2021%2006-53-31.gif" style="max-width: 500px !important; display: block; margin: auto; border-radius: 6px;">
 </div>
 
 I built this to test out the capabilities of make.cm's ability to handle RGB > CMYK color mapping in PDF generations, while at the same time playing around with Generative Artistry's Mondrian Grid.
